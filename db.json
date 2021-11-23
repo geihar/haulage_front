@@ -1,0 +1,67 @@
+{
+  "cargoes" : [
+    {   "cargo_id": 1,
+        "cargoName": "Cargo 1",
+        "description": "description of Cargo 1",
+        "weight": 1340,
+        "volume": 8,
+        "readySince": "10-10-2020",
+        "routeFrom": "Kyiv",
+        "routeTo": "Kharkiv",
+        "transportType": "any",
+        "requirements": "Cargo should be delivered ASAP",
+        "tariff_offer": "",
+        "clientName": "Vasil",
+        "connectType": "Viber",
+        "connectNo": "(000)000-00-00"
+    },
+    {
+        "cargo_id": 2,
+        "cargoName": "Cargo 2",
+        "description": "description of Cargo 2",
+        "weight": 10000,
+        "volume": 32,
+        "readySince": "09-10-2020",
+        "routeFrom": "Kharkiv",
+        "routeTo": "Kyiv",
+        "transportType": "frigo",
+        "requirements": "transportation under temperature control: -2C..+2C",
+        "tariff_offer": "",
+        "clientName": "Stepan",
+        "connectType": "Telegram",
+        "connectNo": "(000)000-00-00"
+    },
+    {
+        "cargo_id": 3,
+        "cargoName": "Cargo 3",
+        "description": "description of Cargo 3",
+        "weight": 18000,
+        "volume": 76,
+        "readySince": "09-10-2020",
+        "routeFrom": "Odessa",
+        "routeTo": "Rivne",
+        "transportType": "platform",
+        "requirements": "open platform is required",
+        "tariff_offer": "",
+        "clientName": "Moisha",
+        "connectType": "Mobile",
+        "connectNo": "(000)000-00-00"
+    },
+    {
+        "cargo_id": 4,
+        "cargoName": "White vine",
+        "description": "Perfect white vine for gourmands",
+        "weight": 1200,
+        "volume": "16",
+        "readySince": "11-10-2020",
+        "routeFrom": "Uzhorod",
+        "routeTo": "Dnipro",
+        "transportType": "tank",
+        "requirements": "food tank!!!",
+        "tariff_offer": "",
+        "clientName": "Izia",
+        "connectType": "Mobile",
+        "connectNo": "(000)000-00-00"
+    }
+  ]
+}

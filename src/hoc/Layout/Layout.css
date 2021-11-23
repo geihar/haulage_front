@@ -1,0 +1,13 @@
+.Layout{
+    /*height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f0f0;
+}
+
+.Layout main{
+    margin-top: 56px;
+    display: block;
+    flex-direction: column;
+    flex-grow: 1;
+}

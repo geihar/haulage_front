@@ -1,0 +1,40 @@
+.Menu{
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background: #fff;
+    transform: translateX(0px);
+    transition: transform .22s ease-in;
+    z-index: 1;
+    border-right: 1px solid #777575;
+}
+.Menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Menu ul li a{
+    color: #747477;
+    font-size: 1.2vw;
+    text-decoration: none;
+    background: #fff;
+    position: relative;
+    padding: 10px 20px 10px 20px;
+    transition: opacity .3s;
+    display: block;
+    margin-right: 0;
+    text-align: left;
+
+
+
+}
+.Menu ul li a:hover, .active{
+    background: #d7d3d3;
+    opacity: .7;
+}
+
+.Menu button{
+    width: 90%;
+    background: #d7d3d3;
+    opacity: .7;
+}

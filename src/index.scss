@@ -1,0 +1,184 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 16px;
+}
+
+div, p, input, header, a {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #6473AA;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header a {
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    font-size: 17px;
+    align-items: center;
+}
+
+.logo {
+    height: 51px;
+    width: 155px;
+    display: block;
+    background: url('../src/assets/icons/logo.svg') no-repeat left center;
+    padding: 25px;
+    margin-right: 872px;
+}
+
+.customer {
+    background-color: #A4AFD5;
+    background: linear-gradient(249.25deg, #FFFFFF -39.53%, rgba(255, 255, 255, 0) 90.03%), #A4AFD5;
+}
+
+.customer-offer {
+    display: flex;
+}
+
+.customer-offer h1, p {
+    color: #fff;
+}
+
+.customer-offer p {
+    margin: 0px;
+    color: #fff;
+}
+
+.offer-text {
+    width: 319px;
+    margin-right: 93px;
+    margin-left: 103px;
+}
+
+.customer-offer h1 {
+    font-size: 43px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.customer-offer p {
+    padding-bottom: 35px;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+
+}
+
+.customer-offer img {
+    display: block;
+}
+
+.vendor-offer {
+    display: flex;
+}
+
+.vendor-offer h1, p, a {
+    color: #000;
+}
+
+
+.vendor-offer img {
+    display: block;
+}
+
+
+.vendor-offer h1 {
+    font-size: 43px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.offer-text-vendor {
+    width: 346px;
+    margin-right: 93px;
+    margin-left: 103px;
+}
+
+.vendor-offer p {
+    margin: 0px;
+    padding-bottom: 35px;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-menu {
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+    font-size: 16px;
+    background: #FF3465;
+    color: #fff;
+    width: 103px;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+
+.btn {
+    border-radius: 6px;
+    border: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+    font-size: 16px;
+    background: #FF3465;
+	color: #fff;
+	width: 307px;
+	padding: 18px 55px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.footer {
+    background-color: #6473AA;
+    padding: 25px;
+}
+
+.footer p {
+    text-align: center;
+    color: #fff;
+}

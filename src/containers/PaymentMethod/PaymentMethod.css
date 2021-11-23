@@ -1,0 +1,44 @@
+.Pay{
+    background: #fff;
+    padding: 20px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(74,74,74,21);
+    -moz-box-shadow: 0 2px 3px 0 rgba(74,74,74,21);
+    box-shadow: 0 2px 3px 0 rgba(74,74,74,21);
+    text-align: left;
+}
+.Pay > *{
+    margin-top: 20px;
+}
+.btn{
+    margin: 10% 0 10% 0;
+    justify-content: center;
+    background: #3c3c3c;
+    color: #fff;
+    width: 80%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+
+}
+h6{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 32px;
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub{
+    font-size: 12px;
+    color: #aaaaaa;
+    text-align: right !important
+}
+.error{
+    color: red;
+    text-align: left
+}

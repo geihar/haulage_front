@@ -1,0 +1,20 @@
+.cargoItem {
+    display:block;
+    width: 60rem;
+    font-size: .75rem;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+}
+
+.cargoCard:hover {
+    background: lavender;
+}
+
+.itemLabel{
+    color: #aaaaaa;
+}
+
+.itemValue{
+    color: #54b895;
+    font-weight: bold;
+}
